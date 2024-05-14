@@ -83,7 +83,7 @@ houseflippedvertically.ppm)
 You may also paste all scripts and then hit enter.
 
 # Changes
-#### Assignment 5
+#### Update 1
 * Refactored PPMImage and PPMPixel to be
   GeneralImage, and GeneralPixel.
   * This was because our PPMImage and PPMPixel methods will work
@@ -104,7 +104,7 @@ are mostly handled in a class called GeneralImageController rather than main.
   * this required a bit of refactoring in each operation function object.
   * We had to make an if else to check if the object we are working with is a mock or not.
 * abstracted all for each loops into a general forEachPixel method.
-#### Assignment 6
+#### Update 2
 * Pulled our load and save methods into a strategies class that
 allows both the GeneralImageController and GUIImageController
 to load and save images.
